@@ -390,13 +390,13 @@
             treeNode54.Text = "013";
             treeNode55.Name = "parametr-0";
             treeNode55.Text = "Параметры 0";
-            treeNode56.Name = "Узел4";
+            treeNode56.Name = "parametr-01";
             treeNode56.Text = "001";
-            treeNode57.Name = "Узел5";
+            treeNode57.Name = "parametr-02";
             treeNode57.Text = "002";
-            treeNode58.Name = "Узел6";
+            treeNode58.Name = "parametr-03";
             treeNode58.Text = "003";
-            treeNode59.Name = "Узел3";
+            treeNode59.Name = "parametr-1";
             treeNode59.Text = "Параметры 1";
             treeNode60.Name = "SPT962";
             treeNode60.Text = "СПТ962";
@@ -622,8 +622,6 @@
             Name = "Form2";
             Text = "SPT Kontroller - СПТ962";
             Load += Form2_Load;
-            //KeyDown += Form2_KeyDown;
-            //KeyPress += Form2_KeyPress;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             panel2.ResumeLayout(false);

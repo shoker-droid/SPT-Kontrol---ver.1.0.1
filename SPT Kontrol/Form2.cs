@@ -259,7 +259,7 @@ namespace SPT_Kontrol
         {
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             ConvertTreeViewIntoDataGridView();
-            
+
             // Загрузка данных при открытии формы
 
         }
@@ -509,14 +509,10 @@ namespace SPT_Kontrol
 
         private void buttonXdbOutput_Click(object sender, EventArgs e)
         {
-            if (dataGridView1.Rows.Count >= 2)
-            {
+            
                 CreateXdb();
-            }
-            else
-            {
-                MessageBox.Show("Выберите узел!");
-            }
+           
+           
 
         }
 
@@ -626,9 +622,9 @@ namespace SPT_Kontrol
             }
         }
 
-        
 
-        
+
+
     }
 
 
